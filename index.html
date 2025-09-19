@@ -1,0 +1,1994 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Conjugação: Verbos em Francês</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #141414;
+            color: #e5e5e5;
+        }
+        .container {
+            max-width: 800px;
+        }
+        .highlight-green {
+            color: #a7f3d0;
+            font-weight: 600;
+        }
+        .highlight-blue {
+            color: #87ceeb;
+            font-weight: 600;
+        }
+        .table-custom {
+            border-collapse: collapse;
+        }
+        .table-custom th, .table-custom td {
+            border: 1px solid #444;
+            padding: 12px;
+            text-align: left;
+        }
+        .table-custom th {
+            background-color: #2a2a2a;
+            color: #E50914;
+        }
+        .table-custom tr:nth-child(even) {
+            background-color: #1c1c1c;
+        }
+        .table-custom tr:hover {
+            background-color: #222;
+        }
+        .quiz-option {
+            background-color: #2a2a2a;
+            border: 1px solid #444;
+            transition: all 0.3s;
+        }
+        .quiz-option:hover {
+            background-color: #333;
+        }
+        .quiz-option input:checked + label {
+            background-color: #E50914;
+            color: #fff;
+            font-weight: 600;
+        }
+        .quiz-option input {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-[#141414] text-gray-200">
+
+    <div class="container mx-auto p-4 md:p-8">
+        
+        <header class="text-center my-8">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-2">Conjugando os Grupos de Verbos</h1>
+            <p class="text-lg text-gray-400">Um guia para a conjugação de verbos em francês</p>
+        </header>
+
+        <div class="bg-[#1c1c1c] rounded-xl shadow-2xl p-6 md:p-8">
+
+            <p class="mb-6">
+                Em francês, os verbos são classificados em três grupos principais. Conhecer as regras de conjugação de cada grupo facilita bastante o aprendizado.
+            </p>
+
+            ---
+
+            <h2 class="text-3xl font-bold text-[#E50914] mb-4">Quando Usar Cada Tempo Verbal?</h2>
+            <ul class="list-disc list-inside space-y-2 mb-6 text-gray-300">
+                <li>
+                    O <span class="text-white font-bold">Présent de l'Indicatif</span> é usado para ações que acontecem no momento atual, hábitos e verdades universais.
+                </li>
+                <li>
+                    O <span class="text-white font-bold">Passé Composé</span> é usado para ações que foram concluídas no passado em um momento específico.
+                </li>
+                <li>
+                    O <span class="text-white font-bold">Imparfait</span> é usado para descrever ações passadas contínuas, hábitos no passado ou para descrever o cenário de uma história.
+                </li>
+                <li>
+                    O <span class="text-white font-bold">Futur Simple</span> é usado para ações que acontecerão no futuro.
+                </li>
+                <li>
+                    O <span class="text-white font-bold">Présent Continu</span> (ou "être en train de" + infinitivo) é usado para ações que estão ocorrendo no exato momento da fala.
+                </li>
+            </ul>
+
+            ---
+
+            <h2 class="text-3xl font-bold text-[#E50914] mb-4">Verbos do 1º Grupo: Exceções à regra (ex: aller)</h2>
+            <p class="mb-4">
+                O verbo "aller" termina em -er, mas é uma exceção e pertence ao 3º grupo por ser irregular. É um dos verbos mais usados.
+            </p>
+            
+            <h3 class="text-2xl font-bold text-white mb-4">Présent de l'Indicatif</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">vais</span></td>
+                            <td><span class="highlight-blue">[vê]</span></td>
+                            <td>Je <span class="highlight-green">vais</span> à la bibliothèque. <span class="highlight-blue">[je vê a la bibliotek]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">vas</span></td>
+                            <td><span class="highlight-blue">[vá]</span></td>
+                            <td>Tu <span class="highlight-green">vas</span> au cinéma. <span class="highlight-blue">[tu vá o sinemá]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">va</span></td>
+                            <td><span class="highlight-blue">[vá]</span></td>
+                            <td>Il <span class="highlight-green">va</span> bien. <span class="highlight-blue">[il vá biãn]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">allons</span></td>
+                            <td><span class="highlight-blue">[allon]</span></td>
+                            <td>Nous <span class="highlight-green">allons</span> au restaurant. <span class="highlight-blue">[nu zalon o restorãn]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">allez</span></td>
+                            <td><span class="highlight-blue">[alê]</span></td>
+                            <td>Vous <span class="highlight-green">allez</span> à la plage? <span class="highlight-blue">[vuz alê a la plaj]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">vont</span></td>
+                            <td><span class="highlight-blue">[von]</span></td>
+                            <td>Elles <span class="highlight-green">vont</span> partir en voyage. <span class="highlight-blue">[el von partir ãn voiag]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Passé Composé</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">suis allé(e)</span></td>
+                            <td><span class="highlight-blue">[je sui zalê]</span></td>
+                            <td>Je <span class="highlight-green">suis allé(e)</span> au supermarché. <span class="highlight-blue">[je sui zalê o supermarshe]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">es allé(e)</span></td>
+                            <td><span class="highlight-blue">[tu ê zalê]</span></td>
+                            <td>Tu <span class="highlight-green">es allé(e)</span> chez le médecin. <span class="highlight-blue">[tu ê zalê she le medsan]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">est allé(e)</span></td>
+                            <td><span class="highlight-blue">[il ê talê]</span></td>
+                            <td>Elle <span class="highlight-green">est allée</span> en France. <span class="highlight-blue">[el ê talê ãn frãnss]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">sommes allés(es)</span></td>
+                            <td><span class="highlight-blue">[nu som zalê]</span></td>
+                            <td>Nous <span class="highlight-green">sommes allés</span> au parc. <span class="highlight-blue">[nu som zalê o park]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">êtes allés(es)</span></td>
+                            <td><span class="highlight-blue">[vuz êt zalê]</span></td>
+                            <td>Vous <span class="highlight-green">êtes allés</span> au cinéma. <span class="highlight-blue">[vu zêt zalê o sinemá]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">sont allés(es)</span></td>
+                            <td><span class="highlight-blue">[il sõ talê]</span></td>
+                            <td>Ils <span class="highlight-green">sont allés</span> à la plage. <span class="highlight-blue">[il sõ talê a la plaj]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Imparfait</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">allais</span></td>
+                            <td><span class="highlight-blue">[alê]</span></td>
+                            <td>J'<span class="highlight-green">allais</span> souvent au marché. <span class="highlight-blue">[jallê suvãn o marshe]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">allais</span></td>
+                            <td><span class="highlight-blue">[alê]</span></td>
+                            <td>Tu <span class="highlight-green">allais</span> à pied à l'école. <span class="highlight-blue">[tu zalê a piê a lekol]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">allait</span></td>
+                            <td><span class="highlight-blue">[alê]</span></td>
+                            <td>Il <span class="highlight-green">allait</span> à la montagne. <span class="highlight-blue">[il alê a la mõtagne]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">allions</span></td>
+                            <td><span class="highlight-blue">[alliõ]</span></td>
+                            <td>Nous <span class="highlight-green">allions</span> voir un ami. <span class="highlight-blue">[nu zalliõ voir ãn ami]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">alliez</span></td>
+                            <td><span class="highlight-blue">[alliê]</span></td>
+                            <td>Vous <span class="highlight-green">alliez</span> trop vite. <span class="highlight-blue">[vu zalliê tro vit]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">allaient</span></td>
+                            <td><span class="highlight-blue">[alê]</span></td>
+                            <td>Elles <span class="highlight-green">allaient</span> bien. <span class="highlight-blue">[el zalê biãn]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Futur Simple</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">irai</span></td>
+                            <td><span class="highlight-blue">[irê]</span></td>
+                            <td>J'<span class="highlight-green">irai</span> te voir. <span class="highlight-blue">[jirê te voir]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">iras</span></td>
+                            <td><span class="highlight-blue">[irá]</span></td>
+                            <td>Tu <span class="highlight-green">iras</span> au travail. <span class="highlight-blue">[tu zirá o travai]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">ira</span></td>
+                            <td><span class="highlight-blue">[irá]</span></td>
+                            <td>Il <span class="highlight-green">ira</span> à l'université. <span class="highlight-blue">[il irá a luniversitê]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">irons</span></td>
+                            <td><span class="highlight-blue">[iron]</span></td>
+                            <td>Nous <span class="highlight-green">irons</span> au restaurant. <span class="highlight-blue">[nu ziron o restorãn]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">irez</span></td>
+                            <td><span class="highlight-blue">[irê]</span></td>
+                            <td>Vous <span class="highlight-green">irez</span> en vacances. <span class="highlight-blue">[vu zirê ãn vacãns]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">iront</span></td>
+                            <td><span class="highlight-blue">[iron]</span></td>
+                            <td>Elles <span class="highlight-green">iront</span> au cinéma. <span class="highlight-blue">[el ziron o sinemá]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            ---
+
+            <h2 class="text-3xl font-bold text-[#E50914] mb-4">2º Grupo: Verbos em -ir (ex: finir)</h2>
+            <p class="mb-4">
+                Estes verbos terminam em -ir e seguem um padrão de conjugação específico.
+            </p>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Présent de l'Indicatif</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">finis</span></td>
+                            <td><span class="highlight-blue">[finí]</span></td>
+                            <td>Je <span class="highlight-green">finis</span> mon travail. <span class="highlight-blue">[je finí mõ travai]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">finis</span></td>
+                            <td><span class="highlight-blue">[finí]</span></td>
+                            <td>Tu <span class="highlight-green">finis</span> ton dîner. <span class="highlight-blue">[tu finí tõ dinê]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">finit</span></td>
+                            <td><span class="highlight-blue">[finí]</span></td>
+                            <td>Elle <span class="highlight-green">finit</span> son livre. <span class="highlight-blue">[el finí sõ livr]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">finissons</span></td>
+                            <td><span class="highlight-blue">[finisson]</span></td>
+                            <td>Nous <span class="highlight-green">finissons</span> la course. <span class="highlight-blue">[nu finissõ la curss]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">finissez</span></td>
+                            <td><span class="highlight-blue">[finissê]</span></td>
+                            <td>Vous <span class="highlight-green">finissez</span> l'exercice. <span class="highlight-blue">[vu finissê legzer-cis]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">finissent</span></td>
+                            <td><span class="highlight-blue">[finis]</span></td>
+                            <td>Ils <span class="highlight-green">finissent</span> leur devoir. <span class="highlight-blue">[il finiss leur devoiar]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <h3 class="text-2xl font-bold text-white mb-4">Passé Composé</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>J'</td>
+                            <td><span class="highlight-green">ai fini</span></td>
+                            <td><span class="highlight-blue">[je fini]</span></td>
+                            <td>J'<span class="highlight-green">ai fini</span> mon livre. <span class="highlight-blue">[je ai fini mon livre]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">as fini</span></td>
+                            <td><span class="highlight-blue">[tu a fini]</span></td>
+                            <td>Tu <span class="highlight-green">as fini</span> ton projet. <span class="highlight-blue">[tu a fini ton proje]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">a fini</span></td>
+                            <td><span class="highlight-blue">[il a fini]</span></td>
+                            <td>Elle <span class="highlight-green">a fini</span> la compétition. <span class="highlight-blue">[el a fini la competisiõ]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">avons fini</span></td>
+                            <td><span class="highlight-blue">[nu zavõ fini]</span></td>
+                            <td>Nous <span class="highlight-green">avons fini</span> de manger. <span class="highlight-blue">[nu zavõ fini de mõjê]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">avez fini</span></td>
+                            <td><span class="highlight-blue">[vu zavê fini]</span></td>
+                            <td>Vous <span class="highlight-green">avez fini</span> l'examen. <span class="highlight-blue">[vu zavê fini legzamãn]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">ont fini</span></td>
+                            <td><span class="highlight-blue">[il zõ fini]</span></td>
+                            <td>Ils <span class="highlight-green">ont fini</span> leurs études. <span class="highlight-blue">[il zõ fini leur zetud]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Imparfait</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">finissais</span></td>
+                            <td><span class="highlight-blue">[finissê]</span></td>
+                            <td>Je <span class="highlight-green">finissais</span> ma soupe. <span class="highlight-blue">[je finissê ma sup]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">finissais</span></td>
+                            <td><span class="highlight-blue">[tu finissê]</span></td>
+                            <td>Tu <span class="highlight-green">finissais</span> toujours tes devoirs à l'heure. <span class="highlight-blue">[tu finissê tujuor te devoiar a leur]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">finissait</span></td>
+                            <td><span class="highlight-blue">[il finissê]</span></td>
+                            <td>Elle <span class="highlight-green">finissait</span> son roman. <span class="highlight-blue">[el finissê sõ romãn]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">finissions</span></td>
+                            <td><span class="highlight-blue">[nu finissiõ]</span></td>
+                            <td>Nous <span class="highlight-green">finissions</span> le projet. <span class="highlight-blue">[nu finissiõ le proje]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">finissiez</span></td>
+                            <td><span class="highlight-blue">[vu finissiê]</span></td>
+                            <td>Vous <span class="highlight-green">finissiez</span> de travailler. <span class="highlight-blue">[vu finissiê de travaiê]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">finissaient</span></td>
+                            <td><span class="highlight-blue">[il finissê]</span></td>
+                            <td>Ils <span class="highlight-green">finissaient</span> la course. <span class="highlight-blue">[il finissê la kurs]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Futur Simple</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">finirai</span></td>
+                            <td><span class="highlight-blue">[finirê]</span></td>
+                            <td>Je <span class="highlight-green">finirai</span> cet article demain. <span class="highlight-blue">[je finirê set artikl demãn]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">finiras</span></td>
+                            <td><span class="highlight-blue">[tu finirás]</span></td>
+                            <td>Tu <span class="highlight-green">finiras</span> tes devoirs avant de jouer. <span class="highlight-blue">[tu finirás te devoiar avãn de juê]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">finira</span></td>
+                            <td><span class="highlight-blue">[il finirá]</span></td>
+                            <td>Il <span class="highlight-green">finira</span> la tâche bientôt. <span class="highlight-blue">[il finirá la tash biênto]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">finirons</span></td>
+                            <td><span class="highlight-blue">[nu finiron]</span></td>
+                            <td>Nous <span class="highlight-green">finirons</span> la compétition. <span class="highlight-blue">[nu finiron la competisiõ]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">finirez</span></td>
+                            <td><span class="highlight-blue">[vu finirê]</span></td>
+                            <td>Vous <span class="highlight-green">finirez</span> le projet. <span class="highlight-blue">[vu finirê le proje]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">finiront</span></td>
+                            <td><span class="highlight-blue">[il finiron]</span></td>
+                            <td>Elles <span class="highlight-green">finirão</span> la corrida. <span class="highlight-blue">[el finiron la coridá]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            ---
+
+            <h2 class="text-3xl font-bold text-[#E50914] mb-4">3º Grupo: Verbos Irregulares</h2>
+            <p class="mb-4">
+                Este grupo é a "exceção à regra". Inclui a maioria dos verbos com conjugação irregular.
+            </p>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Verbo "Prendre"</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">prends</span></td>
+                            <td><span class="highlight-blue">[prãn]</span></td>
+                            <td>Je <span class="highlight-green">prends</span> un taxi. <span class="highlight-blue">[je prãn ãn tacsi]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">prends</span></td>
+                            <td><span class="highlight-blue">[prãn]</span></td>
+                            <td>Tu <span class="highlight-green">prends</span> ton café. <span class="highlight-blue">[tu prãn tõ cafê]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">prend</span></td>
+                            <td><span class="highlight-blue">[prãn]</span></td>
+                            <td>Il <span class="highlight-green">prend</span> son livre. <span class="highlight-blue">[il prãn sõ livr]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">prenons</span></td>
+                            <td><span class="highlight-blue">[prenon]</span></td>
+                            <td>Nous <span class="highlight-green">prenons</span> le petit-déjeuner. <span class="highlight-blue">[nu prenon le petit dejeuner]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">prenez</span></td>
+                            <td><span class="highlight-blue">[prenê]</span></td>
+                            <td>Vous <span class="highlight-green">prenez</span> le bus ? <span class="highlight-blue">[vu prenê le bus]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">prennent</span></td>
+                            <td><span class="highlight-blue">[pren]</span></td>
+                            <td>Elles <span class="highlight-green">prennent</span> des photos. <span class="highlight-blue">[el pren dê foto]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Passé Composé</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">ai pris</span></td>
+                            <td><span class="highlight-blue">[je ai pri]</span></td>
+                            <td>J'<span class="highlight-green">ai pris</span> le train. <span class="highlight-blue">[je ai pri le trãn]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">as pris</span></td>
+                            <td><span class="highlight-blue">[tu a pri]</span></td>
+                            <td>Tu <span class="highlight-green">as pris</span> mon stylo. <span class="highlight-blue">[tu a pri mõ stilo]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">a pris</span></td>
+                            <td><span class="highlight-blue">[il a pri]</span></td>
+                            <td>Il <span class="highlight-green">a pris</span> la bonne décision. <span class="highlight-blue">[il a pri la bon decisõ]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">avons pris</span></td>
+                            <td><span class="highlight-blue">[nu zavõ pri]</span></td>
+                            <td>Nous <span class="highlight-green">avons pris</span> le petit-déjeuner. <span class="highlight-blue">[nu zavõ pri le petit dejeuner]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">avez pris</span></td>
+                            <td><span class="highlight-blue">[vu zavê pri]</span></td>
+                            <td>Vous <span class="highlight-green">avez pris</span> des photos. <span class="highlight-blue">[vu zavê pri dê foto]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">ont pris</span></td>
+                            <td><span class="highlight-blue">[il zõ pri]</span></td>
+                            <td>Elles <span class="highlight-green">ont pris</span> un taxi. <span class="highlight-blue">[el zõ pri ãn tacsi]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Imparfait</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">prenais</span></td>
+                            <td><span class="highlight-blue">[prenê]</span></td>
+                            <td>Je <span class="highlight-green">prenais</span> le bus para ir ao trabalho. <span class="highlight-blue">[je prenê le bus pur ir o travai]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">prenais</span></td>
+                            <td><span class="highlight-blue">[tu prenê]</span></td>
+                            <td>Tu <span class="highlight-green">prenais</span> sempre o café da manhã. <span class="highlight-blue">[tu prenê sãpr le cafê de la matãn]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">prenait</span></td>
+                            <td><span class="highlight-blue">[il prenê]</span></td>
+                            <td>Il <span class="highlight-green">prenait</span> a estrada mais longa. <span class="highlight-blue">[il prenê la strad le plus long]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">prenions</span></td>
+                            <td><span class="highlight-blue">[nu preniõ]</span></td>
+                            <td>Nous <span class="highlight-green">prenions</span> o nosso tempo. <span class="highlight-blue">[nu preniõ notr tã]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">preniez</span></td>
+                            <td><span class="highlight-blue">[vu preniê]</span></td>
+                            <td>Vous <span class="highlight-green">preniez</span> muitas notas. <span class="highlight-blue">[vu preniê bucu de not]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">prenaient</span></td>
+                            <td><span class="highlight-blue">[il prenê]</span></td>
+                            <td>Elas <span class="highlight-green">prenaient</span> a iniciativa. <span class="highlight-blue">[el prenê la iniciativ]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Futur Simple</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">prendrai</span></td>
+                            <td><span class="highlight-blue">[prãdrê]</span></td>
+                            <td>Je <span class="highlight-green">prendrai</span> un táxi. <span class="highlight-blue">[je prãdrê ãn tacsi]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">prendras</span></td>
+                            <td><span class="highlight-blue">[tu prãdrás]</span></td>
+                            <td>Tu <span class="highlight-green">prendras</span> o ônibus. <span class="highlight-blue">[tu prãdrás lo onibus]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">prendra</span></td>
+                            <td><span class="highlight-blue">[il prãdrá]</span></td>
+                            <td>Elle <span class="highlight-green">prendra</span> o seu café. <span class="highlight-blue">[el prãdrá sõ cafê]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">prendrons</span></td>
+                            <td><span class="highlight-blue">[nu prãdron]</span></td>
+                            <td>Nous <span class="highlight-green">tomaremos</span> nosso tempo. <span class="highlight-blue">[nu prãdron notr tã]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">prendrez</span></td>
+                            <td><span class="highlight-blue">[vu prãdrê]</span></td>
+                            <td>Vous <span class="highlight-green">tomarão</span> notas. <span class="highlight-blue">[vu prãdrê not]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">prendront</span></td>
+                            <td><span class="highlight-blue">[il prãdron]</span></td>
+                            <td>Eles <span class="highlight-green">tomarão</span> a iniciativa. <span class="highlight-blue">[il prãdron la iniciativ]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Verbo "Écrire"</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>J'</td>
+                            <td><span class="highlight-green">écris</span></td>
+                            <td><span class="highlight-blue">[jekrí]</span></td>
+                            <td>J'<span class="highlight-green">écris</span> une lettre. <span class="highlight-blue">[jekrí un letr]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">écris</span></td>
+                            <td><span class="highlight-blue">[tuekrí]</span></td>
+                            <td>Tu <span class="highlight-green">écris</span> un roman. <span class="highlight-blue">[tuekrí ãn romãn]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">écrit</span></td>
+                            <td><span class="highlight-blue">[ilekrí]</span></td>
+                            <td>Il <span class="highlight-green">écrit</span> à ses parents. <span class="highlight-blue">[ilekrí a se parãn]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">écrivons</span></td>
+                            <td><span class="highlight-blue">[nuzekrivõ]</span></td>
+                            <td>Nous <span class="highlight-green">écrivons</span> un rapport. <span class="highlight-blue">[nuzekrivõ ãn rapor]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">écrivez</span></td>
+                            <td><span class="highlight-blue">[vuzekrivê]</span></td>
+                            <td>Vous <span class="highlight-green">écrivez</span> pour le journal. <span class="highlight-blue">[vuzekrivê pur le jurnal]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">écrivent</span></td>
+                            <td><span class="highlight-blue">[ilekrív]</span></td>
+                            <td>Elles <span class="highlight-green">escrevem</span> des e-mails. <span class="highlight-blue">[elekrív dê zimel]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Passé Composé</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>J'</td>
+                            <td><span class="highlight-green">ai écrit</span></td>
+                            <td><span class="highlight-blue">[je ai ekri]</span></td>
+                            <td>J'<span class="highlight-green">ai écrit</span> un poème. <span class="highlight-blue">[je ai ekri ãn poem]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">as écrit</span></td>
+                            <td><span class="highlight-blue">[tu a ekri]</span></td>
+                            <td>Tu <span class="highlight-green">as écrit</span> une lettre. <span class="highlight-blue">[tu a ekri un letr]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">a écrit</span></td>
+                            <td><span class="highlight-blue">[il a ekri]</span></td>
+                            <td>Il <span class="highlight-green">a écrit</span> un rapport. <span class="highlight-blue">[il a ekri ãn rapor]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">avons écrit</span></td>
+                            <td><span class="highlight-blue">[nu zavõ ekri]</span></td>
+                            <td>Nous <span class="highlight-green">avons écrit</span> pour le journal. <span class="highlight-blue">[nu zavõ ekri pur le jurnal]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">avez écrit</span></td>
+                            <td><span class="highlight-blue">[vu zavê ekri]</span></td>
+                            <td>Vous <span class="highlight-green">avez écrit</span> un roman. <span class="highlight-blue">[vu zavê ekri ãn romãn]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">ont écrit</span></td>
+                            <td><span class="highlight-blue">[il zõ ekri]</span></td>
+                            <td>Elles <span class="highlight-green">ont écrit</span> leurs noms. <span class="highlight-blue">[el zõ ekri leur nõ]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Imparfait</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>J'</td>
+                            <td><span class="highlight-green">écrivais</span></td>
+                            <td><span class="highlight-blue">[jekrivê]</span></td>
+                            <td>J'<span class="highlight-green">écrivais</span> souvent para ele. <span class="highlight-blue">[jekrivê suvãn pur el]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">écrivais</span></td>
+                            <td><span class="highlight-blue">[tu ekrivê]</span></td>
+                            <td>Tu <span class="highlight-green">écrivais</span> diários. <span class="highlight-blue">[tu ekrivê diãr]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">écrivait</span></td>
+                            <td><span class="highlight-blue">[il ekrivê]</span></td>
+                            <td>Ele <span class="highlight-green">escrevia</span> cartas para sua família. <span class="highlight-blue">[il ekrivê kart pur sa famili]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">écrivions</span></td>
+                            <td><span class="highlight-blue">[nu zekriviõ]</span></td>
+                            <td>Nós <span class="highlight-green">escrevíamos</span> juntos. <span class="highlight-blue">[nu zekriviõ junt]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">écriviez</span></td>
+                            <td><span class="highlight-blue">[vu zekriviê]</span></td>
+                            <td>Você <span class="highlight-green">escrevia</span> poemas. <span class="highlight-blue">[vu zekriviê poem]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">écrivaient</span></td>
+                            <td><span class="highlight-blue">[il zekrivê]</span></td>
+                            <td>Eles <span class="highlight-green">escreviam</span> notícias. <span class="highlight-blue">[il zekrivê notis]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Futur Simple</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>J'</td>
+                            <td><span class="highlight-green">écrirai</span></td>
+                            <td><span class="highlight-blue">[jekrirê]</span></td>
+                            <td>J'<span class="highlight-green">escreverei</span> um livro. <span class="highlight-blue">[jekrirê ãn livr]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">écriras</span></td>
+                            <td><span class="highlight-blue">[tu ekrirás]</span></td>
+                            <td>Tu <span class="highlight-green">escreverás</span> a carta. <span class="highlight-blue">[tu ekrirás la kart]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">écrira</span></td>
+                            <td><span class="highlight-blue">[il ekrirá]</span></td>
+                            <td>Ela <span class="highlight-green">escreverá</span> um artigo. <span class="highlight-blue">[el ekrirá ãn artikl]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">écrirons</span></td>
+                            <td><span class="highlight-blue">[nu zekriron]</span></td>
+                            <td>Nós <span class="highlight-green">escreveremos</span> um relatório. <span class="highlight-blue">[nu zekriron ãn rapor]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">écrirez</span></td>
+                            <td><span class="highlight-blue">[vu zekrirê]</span></td>
+                            <td>Vocês <span class="highlight-green">escreverão</span> para a família. <span class="highlight-blue">[vu zekrirê pur la famili]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">écriront</span></td>
+                            <td><span class="highlight-blue">[il zekriron]</span></td>
+                            <td>Eles <span class="highlight-green">escreverão</span> um e-mail. <span class="highlight-blue">[il zekriron ãn zimel]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <h3 class="text-2xl font-bold text-white mb-4">Verbo "Boire"</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">bois</span></td>
+                            <td><span class="highlight-blue">[buá]</span></td>
+                            <td>Je <span class="highlight-green">bois</span> de l'eau. <span class="highlight-blue">[je buá de lo]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">bois</span></td>
+                            <td><span class="highlight-blue">[tu buá]</span></td>
+                            <td>Tu <span class="highlight-green">bois</span> du thé. <span class="highlight-blue">[tu buá du tê]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">boit</span></td>
+                            <td><span class="highlight-blue">[il buá]</span></td>
+                            <td>Il <span class="highlight-green">boit</span> du café. <span class="highlight-blue">[il buá du cafê]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">buvons</span></td>
+                            <td><span class="highlight-blue">[nu buvôn]</span></td>
+                            <td>Nous <span class="highlight-green">buvons</span> du jus. <span class="highlight-blue">[nu buvôn du ju]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">buvez</span></td>
+                            <td><span class="highlight-blue">[vu buvê]</span></td>
+                            <td>Vous <span class="highlight-green">buvez</span> de l'alcool. <span class="highlight-blue">[vu buvê de lakol]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">boivent</span></td>
+                            <td><span class="highlight-blue">[il buáv]</span></td>
+                            <td>Elles <span class="highlight-green">boivent</span> du vin. <span class="highlight-blue">[el buáv du vin]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Passé Composé</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>J'</td>
+                            <td><span class="highlight-green">ai bu</span></td>
+                            <td><span class="highlight-blue">[je ai bu]</span></td>
+                            <td>J'<span class="highlight-green">ai bu</span> un café ce matin. <span class="highlight-blue">[je ai bu ãn cafê se matãn]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">as bu</span></td>
+                            <td><span class="highlight-blue">[tu a bu]</span></td>
+                            <td>Tu <span class="highlight-green">as bu</span> de l'eau. <span class="highlight-blue">[tu a bu de lo]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">a bu</span></td>
+                            <td><span class="highlight-blue">[il a bu]</span></td>
+                            <td>Elle <span class="highlight-green">a bu</span> son verre. <span class="highlight-blue">[el a bu sõ verr]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">avons bu</span></td>
+                            <td><span class="highlight-blue">[nu zavõ bu]</span></td>
+                            <td>Nous <span class="highlight-green">avons bu</span> du vin. <span class="highlight-blue">[nu zavõ bu du vin]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">avez bu</span></td>
+                            <td><span class="highlight-blue">[vu zavê bu]</span></td>
+                            <td>Vous <span class="highlight-green">avez bu</span> la boisson. <span class="highlight-blue">[vu zavê bu la buassõ]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">ont bu</span></td>
+                            <td><span class="highlight-blue">[il zõ bu]</span></td>
+                            <td>Ils <span class="highlight-green">ont bu</span> du lait. <span class="highlight-blue">[il zõ bu du le]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Imparfait</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">buvais</span></td>
+                            <td><span class="highlight-blue">[buvê]</span></td>
+                            <td>Je <span class="highlight-green">buvais</span> de l'eau. <span class="highlight-blue">[je buvê de lo]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">buvais</span></td>
+                            <td><span class="highlight-blue">[tu buvê]</span></td>
+                            <td>Tu <span class="highlight-green">buvais</span> du thé. <span class="highlight-blue">[tu buvê du tê]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">buvait</span></td>
+                            <td><span class="highlight-blue">[il buvê]</span></td>
+                            <td>Il <span class="highlight-green">buvait</span> du café. <span class="highlight-blue">[il buvê du cafê]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">buvions</span></td>
+                            <td><span class="highlight-blue">[nu buviõ]</span></td>
+                            <td>Nous <span class="highlight-green">buvions</span> du jus. <span class="highlight-blue">[nu buviõ du ju]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">buviez</span></td>
+                            <td><span class="highlight-blue">[vu buviê]</span></td>
+                            <td>Vous <span class="highlight-green">buviez</span> de l'alcool. <span class="highlight-blue">[vu buviê de lakol]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">buvaient</span></td>
+                            <td><span class="highlight-blue">[il buvê]</span></td>
+                            <td>Elles <span class="highlight-green">buvaient</span> du vin. <span class="highlight-blue">[el buvê du vin]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Futur Simple</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">boirai</span></td>
+                            <td><span class="highlight-blue">[buarê]</span></td>
+                            <td>Je <span class="highlight-green">boirei</span> de l'eau. <span class="highlight-blue">[je buarê de lo]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">boiras</span></td>
+                            <td><span class="highlight-blue">[tu buarás]</span></td>
+                            <td>Tu <span class="highlight-green">boirás</span> du thé. <span class="highlight-blue">[tu buarás du tê]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">boira</span></td>
+                            <td><span class="highlight-blue">[il buará]</span></td>
+                            <td>Il <span class="highlight-green">boirá</span> du café. <span class="highlight-blue">[il buará du cafê]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">boirons</span></td>
+                            <td><span class="highlight-blue">[nu buaron]</span></td>
+                            <td>Nous <span class="highlight-green">boirons</span> du jus. <span class="highlight-blue">[nu buaron du ju]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">boirez</span></td>
+                            <td><span class="highlight-blue">[vu buarê]</span></td>
+                            <td>Vous <span class="highlight-green">boirez</span> de l'alcool. <span class="highlight-blue">[vu buarê de lakol]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">boiront</span></td>
+                            <td><span class="highlight-blue">[il buaron]</span></td>
+                            <td>Elas <span class="highlight-green">boirão</span> du vin. <span class="highlight-blue">[el buaron du vin]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <h3 class="text-2xl font-bold text-white mb-4">Verbo "Faire"</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">fais</span></td>
+                            <td><span class="highlight-blue">[fê]</span></td>
+                            <td>Je <span class="highlight-green">fais</span> mes devoirs. <span class="highlight-blue">[je fê mê devoiar]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">fais</span></td>
+                            <td><span class="highlight-blue">[tu fê]</span></td>
+                            <td>Tu <span class="highlight-green">fais</span> du sport. <span class="highlight-blue">[tu fê du spor]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">fait</span></td>
+                            <td><span class="highlight-blue">[il fê]</span></td>
+                            <td>Il <span class="highlight-green">faz</span> la cuisine. <span class="highlight-blue">[il fê la cuizin]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">faisons</span></td>
+                            <td><span class="highlight-blue">[nu fezon]</span></td>
+                            <td>Nous <span class="highlight-green">fazemos</span> un gâteau. <span class="highlight-blue">[nu fezon ãn gato]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">faites</span></td>
+                            <td><span class="highlight-blue">[vu fet]</span></td>
+                            <td>Vous <span class="highlight-green">fazem</span> du jardinage. <span class="highlight-blue">[vu fet du jardinaj]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">font</span></td>
+                            <td><span class="highlight-blue">[il fon]</span></td>
+                            <td>Ils <span class="highlight-green">fazem</span> du bruit. <span class="highlight-blue">[il fon du brui]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Passé Composé</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>J'</td>
+                            <td><span class="highlight-green">ai fait</span></td>
+                            <td><span class="highlight-blue">[je ai fe]</span></td>
+                            <td>J'<span class="highlight-green">ai fait</span> un gâteau. <span class="highlight-blue">[je ai fe ãn gato]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">as fait</span></td>
+                            <td><span class="highlight-blue">[tu a fe]</span></td>
+                            <td>Tu <span class="highlight-green">as fait</span> du sport. <span class="highlight-blue">[tu a fe du spor]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">a fait</span></td>
+                            <td><span class="highlight-blue">[il a fe]</span></td>
+                            <td>Il <span class="highlight-green">a feito</span> un travail excellent. <span class="highlight-blue">[il a fe ãn travai exelã]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">avons fait</span></td>
+                            <td><span class="highlight-blue">[nu zavõ fe]</span></td>
+                            <td>Nous <span class="highlight-green">avons fait</span> la cuisine. <span class="highlight-blue">[nu zavõ fe la cuizin]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">avez fait</span></td>
+                            <td><span class="highlight-blue">[vu zavê fe]</span></td>
+                            <td>Vous <span class="highlight-green">avez fait</span> une erreur. <span class="highlight-blue">[vu zavê fe un errôr]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">ont fait</span></td>
+                            <td><span class="highlight-blue">[il zõ fe]</span></td>
+                            <td>Elles <span class="highlight-green">ont fait</span> du shopping. <span class="highlight-blue">[el zõ fe du shoping]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Imparfait</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">faisais</span></td>
+                            <td><span class="highlight-blue">[fezê]</span></td>
+                            <td>Je <span class="highlight-green">faisais</span> mes devoirs. <span class="highlight-blue">[je fezê mê devoiar]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">faisais</span></td>
+                            <td><span class="highlight-blue">[tu fezê]</span></td>
+                            <td>Tu <span class="highlight-green">faisais</span> du sport. <span class="highlight-blue">[tu fezê du spor]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">faisait</span></td>
+                            <td><span class="highlight-blue">[il fezê]</span></td>
+                            <td>Il <span class="highlight-green">faisait</span> la cuisine. <span class="highlight-blue">[il fezê la cuizin]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">faisions</span></td>
+                            <td><span class="highlight-blue">[nu feziõ]</span></td>
+                            <td>Nous <span class="highlight-green">fazíamos</span> um bolo. <span class="highlight-blue">[nu feziõ ãn bolo]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">faisiez</span></td>
+                            <td><span class="highlight-blue">[vu feziê]</span></td>
+                            <td>Vous <span class="highlight-green">faziam</span> doações. <span class="highlight-blue">[vu feziê donasiõ]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">faisaient</span></td>
+                            <td><span class="highlight-blue">[il fezê]</span></td>
+                            <td>Eles <span class="highlight-green">faziam</span> du bruit. <span class="highlight-blue">[il fezê du brui]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Futur Simple</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">ferai</span></td>
+                            <td><span class="highlight-blue">[ferê]</span></td>
+                            <td>Je <span class="highlight-green">farei</span> do meu melhor. <span class="highlight-blue">[je ferê du meu meihor]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">feras</span></td>
+                            <td><span class="highlight-blue">[tu ferás]</span></td>
+                            <td>Tu <span class="highlight-green">farás</span> o que for necessário. <span class="highlight-blue">[tu ferás ke for nesesair]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">fera</span></td>
+                            <td><span class="highlight-blue">[il ferá]</span></td>
+                            <td>Ela <span class="highlight-green">fará</span> uma torta. <span class="highlight-blue">[el ferá un torta]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">ferons</span></td>
+                            <td><span class="highlight-blue">[nu feron]</span></td>
+                            <td>Nós <span class="highlight-green">faremos</span> a lição. <span class="highlight-blue">[nu feron la lisõ]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">ferez</span></td>
+                            <td><span class="highlight-blue">[vu ferê]</span></td>
+                            <td>Vocês <span class="highlight-green">farão</span> o jantar. <span class="highlight-blue">[vu ferê le jantã]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">feront</span></td>
+                            <td><span class="highlight-blue">[il feron]</span></td>
+                            <td>Eles <span class="highlight-green">farão</span> a festa. <span class="highlight-blue">[il feron la fest]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <h3 class="text-2xl font-bold text-white mb-4">Verbo "Dire"</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">dis</span></td>
+                            <td><span class="highlight-blue">[dí]</span></td>
+                            <td>Je <span class="highlight-green">dis</span> la vérité. <span class="highlight-blue">[je dí la verité]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">dis</span></td>
+                            <td><span class="highlight-blue">[tu dí]</span></td>
+                            <td>Tu <span class="highlight-green">dis</span> bonjour. <span class="highlight-blue">[tu dí bonjur]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">dit</span></td>
+                            <td><span class="highlight-blue">[il dí]</span></td>
+                            <td>Elle <span class="highlight-green">dit</span> au revoir. <span class="highlight-blue">[el dí o revoar]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">disons</span></td>
+                            <td><span class="highlight-blue">[nu dizon]</span></td>
+                            <td>Nous <span class="highlight-green">dizemos</span> des blagues. <span class="highlight-blue">[nu dizon dê blag]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">dites</span></td>
+                            <td><span class="highlight-blue">[vu dit]</span></td>
+                            <td>Vous <span class="highlight-green">dizem</span> quelque chose. <span class="highlight-blue">[vu dit kelk shoz]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">disent</span></td>
+                            <td><span class="highlight-blue">[il diz]</span></td>
+                            <td>Ils <span class="highlight-green">dizem</span> que sim. <span class="highlight-blue">[il diz ke oui]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Passé Composé</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>J'</td>
+                            <td><span class="highlight-green">ai dit</span></td>
+                            <td><span class="highlight-blue">[je ai di]</span></td>
+                            <td>J'<span class="highlight-green">ai dit</span> la verdade. <span class="highlight-blue">[je ai di la verite]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">as dit</span></td>
+                            <td><span class="highlight-blue">[tu a di]</span></td>
+                            <td>Tu <span class="highlight-green">as dit</span> bonjour. <span class="highlight-blue">[tu a di bonjur]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">a dit</span></td>
+                            <td><span class="highlight-blue">[il a di]</span></td>
+                            <td>Elle <span class="highlight-green">a dito</span> adeus. <span class="highlight-blue">[el a di adeus]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">avons dit</span></td>
+                            <td><span class="highlight-blue">[nu zavõ di]</span></td>
+                            <td>Nous <span class="highlight-green">avons dito</span> algo. <span class="highlight-blue">[nu zavõ di alke shose]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">avez dit</span></td>
+                            <td><span class="highlight-blue">[vu zavê di]</span></td>
+                            <td>Vous <span class="highlight-green">avez dito</span> para mim. <span class="highlight-blue">[vu zavê di pur mwa]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">ont dit</span></td>
+                            <td><span class="highlight-blue">[il zõ di]</span></td>
+                            <td>Eles <span class="highlight-green">disseram</span> que sim. <span class="highlight-blue">[il zõ di ke oui]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Imparfait</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">disais</span></td>
+                            <td><span class="highlight-blue">[dizê]</span></td>
+                            <td>Je <span class="highlight-green">dizia</span> a verdade. <span class="highlight-blue">[je dizê la verite]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">disais</span></td>
+                            <td><span class="highlight-blue">[tu dizê]</span></td>
+                            <td>Tu <span class="highlight-green">dizias</span> olá. <span class="highlight-blue">[tu dizê hola]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">disait</span></td>
+                            <td><span class="highlight-blue">[il dizê]</span></td>
+                            <td>Ele <span class="highlight-green">dizia</span> adeus. <span class="highlight-blue">[il dizê adeus]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">disions</span></td>
+                            <td><span class="highlight-blue">[nu diziõ]</span></td>
+                            <td>Nós <span class="highlight-green">dizíamos</span> a mesma coisa. <span class="highlight-blue">[nu diziõ la mem shose]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">disiez</span></td>
+                            <td><span class="highlight-blue">[vu diziê]</span></td>
+                            <td>Vocês <span class="highlight-green">diziam</span> algo. <span class="highlight-blue">[vu diziê alke shose]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">disaient</span></td>
+                            <td><span class="highlight-blue">[il dizê]</span></td>
+                            <td>Eles <span class="highlight-green">diziam</span> que sim. <span class="highlight-blue">[il dizê ke oui]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Futur Simple</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">dirai</span></td>
+                            <td><span class="highlight-blue">[dirê]</span></td>
+                            <td>Eu <span class="highlight-green">direi</span> a verdade. <span class="highlight-blue">[je dirê la verite]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">diras</span></td>
+                            <td><span class="highlight-blue">[tu dirás]</span></td>
+                            <td>Você <span class="highlight-green">dirá</span> olá. <span class="highlight-blue">[tu dirás hola]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">dira</span></td>
+                            <td><span class="highlight-blue">[il dirá]</span></td>
+                            <td>Ela <span class="highlight-green">dirá</span> adeus. <span class="highlight-blue">[el dirá adeus]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">dirons</span></td>
+                            <td><span class="highlight-blue">[nu diron]</span></td>
+                            <td>Nós <span class="highlight-green">diremos</span> a mesma coisa. <span class="highlight-blue">[nu diron la mem shose]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">direz</span></td>
+                            <td><span class="highlight-blue">[vu dirê]</span></td>
+                            <td>Vocês <span class="highlight-green">dirão</span> algo. <span class="highlight-blue">[vu dirê alke shose]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">diront</span></td>
+                            <td><span class="highlight-blue">[il diron]</span></td>
+                            <td>Eles <span class="highlight-green">dirão</span> que sim. <span class="highlight-blue">[il diron ke oui]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <h3 class="text-2xl font-bold text-white mb-4">Verbo "Vouloir"</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">veux</span></td>
+                            <td><span class="highlight-blue">[vø]</span></td>
+                            <td>Je <span class="highlight-green">quero</span> un café. <span class="highlight-blue">[je vø ãn cafê]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">veux</span></td>
+                            <td><span class="highlight-blue">[tu vø]</span></td>
+                            <td>Tu <span class="highlight-green">queres</span> voyager. <span class="highlight-blue">[tu vø voiagê]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">veut</span></td>
+                            <td><span class="highlight-blue">[il vø]</span></td>
+                            <td>Il <span class="highlight-green">quer</span> dormir. <span class="highlight-blue">[il vø dormír]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">voulons</span></td>
+                            <td><span class="highlight-blue">[nu vulõ]</span></td>
+                            <td>Nous <span class="highlight-green">queremos</span> comer. <span class="highlight-blue">[nu vulõ mõjê]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">voulez</span></td>
+                            <td><span class="highlight-blue">[vu vulê]</span></td>
+                            <td>Vous <span class="highlight-green">querem</span> sair. <span class="highlight-blue">[vu vulê sortir]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">veulent</span></td>
+                            <td><span class="highlight-blue">[il vøl]</span></td>
+                            <td>Elas <span class="highlight-green">querem</span> um carro. <span class="highlight-blue">[el vøl ãn karo]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Passé Composé</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>J'</td>
+                            <td><span class="highlight-green">ai voulu</span></td>
+                            <td><span class="highlight-blue">[je ai vulu]</span></td>
+                            <td>J'<span class="highlight-green">ai querido</span> te ver. <span class="highlight-blue">[je ai vulu te voir]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">as voulu</span></td>
+                            <td><span class="highlight-blue">[tu a vulu]</span></td>
+                            <td>Tu <span class="highlight-green">as querido</span> isso. <span class="highlight-blue">[tu a vulu sa]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">a voulu</span></td>
+                            <td><span class="highlight-blue">[il a vulu]</span></td>
+                            <td>Ele <span class="highlight-green">quis</span> um novo carro. <span class="highlight-blue">[il a vulu ãn nuo karo]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">avons voulu</span></td>
+                            <td><span class="highlight-blue">[nu zavõ vulu]</span></td>
+                            <td>Nós <span class="highlight-green">quisemos</span> sair. <span class="highlight-blue">[nu zavõ vulu sortir]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">avez voulu</span></td>
+                            <td><span class="highlight-blue">[vu zavê vulu]</span></td>
+                            <td>Vocês <span class="highlight-green">quiseram</span> o melhor. <span class="highlight-blue">[vu zavê vulu le meihor]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">ont voulu</span></td>
+                            <td><span class="highlight-blue">[il zõ vulu]</span></td>
+                            <td>Eles <span class="highlight-green">quiseram</span> paz. <span class="highlight-blue">[il zõ vulu paz]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Imparfait</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">voulais</span></td>
+                            <td><span class="highlight-blue">[vulê]</span></td>
+                            <td>Je <span class="highlight-green">queria</span> um sorvete. <span class="highlight-blue">[je vulê ãn sorvet]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">voulais</span></td>
+                            <td><span class="highlight-blue">[tu vulê]</span></td>
+                            <td>Tu <span class="highlight-green">querias</span> ir. <span class="highlight-blue">[tu vulê ir]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">voulait</span></td>
+                            <td><span class="highlight-blue">[il vulê]</span></td>
+                            <td>Ela <span class="highlight-green">queria</span> um livro. <span class="highlight-blue">[el vulê ãn livr]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">voulions</span></td>
+                            <td><span class="highlight-blue">[nu vuliõ]</span></td>
+                            <td>Nós <span class="highlight-green">queríamos</span> dormir. <span class="highlight-blue">[nu vuliõ dormir]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">vouliez</span></td>
+                            <td><span class="highlight-blue">[vu vuliê]</span></td>
+                            <td>Vocês <span class="highlight-green">queriam</span> a resposta. <span class="highlight-blue">[vu vuliê la respons]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">voulaient</span></td>
+                            <td><span class="highlight-blue">[il vulê]</span></td>
+                            <td>Eles <span class="highlight-green">queriam</span> sair. <span class="highlight-blue">[il vulê sortir]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="text-2xl font-bold text-white mb-4">Futur Simple</h3>
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Pronome</th>
+                            <th class="w-1/4">Conjugação</th>
+                            <th class="w-1/4">Pronúncia</th>
+                            <th class="w-1/4">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">voudrai</span></td>
+                            <td><span class="highlight-blue">[vudrê]</span></td>
+                            <td>Eu <span class="highlight-green">quererei</span> um carro. <span class="highlight-blue">[je vudrê ãn karo]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">voudras</span></td>
+                            <td><span class="highlight-blue">[tu vudrás]</span></td>
+                            <td>Você <span class="highlight-green">querei</span> ir. <span class="highlight-blue">[tu vudrás ir]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">voudra</span></td>
+                            <td><span class="highlight-blue">[il vudrá]</span></td>
+                            <td>Ela <span class="highlight-green">quererá</span> a casa. <span class="highlight-blue">[el vudrá la kaz]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">voudrons</span></td>
+                            <td><span class="highlight-blue">[nu vudron]</span></td>
+                            <td>Nós <span class="highlight-green">quereremos</span> a resposta. <span class="highlight-blue">[nu vudron la respons]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">voudrez</span></td>
+                            <td><span class="highlight-blue">[vu vudrê]</span></td>
+                            <td>Vocês <span class="highlight-green">quererão</span> paz. <span class="highlight-blue">[vu vudrê paz]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">voudront</span></td>
+                            <td><span class="highlight-blue">[il vudron]</span></td>
+                            <td>Eles <span class="highlight-green">quererão</span> dormir. <span class="highlight-blue">[il vudron dormir]</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            ---
+
+            <h2 class="text-3xl font-bold text-[#E50914] mb-4">4. Atividade Interativa: Teste seus Conhecimentos!</h2>
+            <p class="mb-6 text-gray-400">Escolha a conjugação correta para completar cada frase.</p>
+
+            <div class="bg-[#2a2a2a] p-6 rounded-xl shadow-xl">
+                <div id="quiz-container">
+                    <div class="mb-4">
+                        <p id="question-text" class="text-lg font-semibold text-white"></p>
+                    </div>
+                    <div id="options-container" class="flex flex-col space-y-2">
+                        <!-- Opções do quiz serão geradas aqui pelo JS -->
+                    </div>
+                    <button id="check-button" class="mt-4 w-full bg-[#E50914] text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition-all">
+                        Verificar Resposta
+                    </button>
+                    <div id="feedback" class="mt-4 text-center text-lg font-bold"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const quizData = [
+                {
+                    question: "Demain, nous _____ au cinéma. (aller - futur simple)",
+                    options: ["allons", "irons", "iront", "allions"],
+                    answer: "irons"
+                },
+                {
+                    question: "Elles _____ leur travail à l'heure. (finir - présent)",
+                    options: ["finissent", "finissez", "finissons", "finis"],
+                    answer: "finissent"
+                },
+                {
+                    question: "J'_____ un livre hier. (finir - passé composé)",
+                    options: ["ai fini", "finis", "finissais", "finirai"],
+                    answer: "ai fini"
+                },
+                {
+                    question: "Il _____ son livre préféré hier. (écrire - passé composé)",
+                    options: ["a écrit", "écrit", "écrivait", "écrira"],
+                    answer: "a écrit"
+                },
+                {
+                    question: "Vous _____ de l'eau en ce moment. (boire - présent continu)",
+                    options: ["buvez", "buvais", "êtes en train de boire", "boirez"],
+                    answer: "êtes en train de boire"
+                },
+                {
+                    question: "L'année dernière, tu _____ beaucoup de sport. (faire - passé composé)",
+                    options: ["fais", "as fait", "faisais", "feras"],
+                    answer: "as fait"
+                },
+                {
+                    question: "Nous _____ toujours la vérité. (dire - présent)",
+                    options: ["disons", "dites", "disent", "dirons"],
+                    answer: "disons"
+                },
+                {
+                    question: "Qu'est-ce que tu _____ ? (vouloir - présent)",
+                    options: ["veux", "veut", "voulez", "voulons"],
+                    answer: "veux"
+                },
+                {
+                    question: "Hier, nous _____ à la plage. (aller - passé composé)",
+                    options: ["avons allé", "sommes allés", "allions", "irons"],
+                    answer: "sommes allés"
+                },
+                {
+                    question: "Ils _____ le bruit. (faire - présent)",
+                    options: ["font", "faisons", "faites", "fais"],
+                    answer: "font"
+                },
+                {
+                    question: "Elle _____ une histoire quand je suis arrivé. (écrire - imparfait)",
+                    options: ["écrit", "a écrit", "écrivait", "écrivent"],
+                    answer: "écrivait"
+                },
+                {
+                    question: "Je _____ un thé maintenant. (boire - présent)",
+                    options: ["bois", "boit", "buvons", "buvais"],
+                    answer: "bois"
+                },
+                {
+                    question: "Demain, vous _____ un grand voyage. (faire - futur simple)",
+                    options: ["faites", "ferez", "ferons", "fait"],
+                    answer: "ferez"
+                },
+                {
+                    question: "Nous _____ un café après le déjeuner. (prendre - passé composé)",
+                    options: ["avons pris", "prenons", "prenions", "prendrons"],
+                    answer: "avons pris"
+                },
+                {
+                    question: "Quand nós éramos crianças, nós _____ a bicicleta. (prendre - imparfait)",
+                    options: ["prenions", "avons pris", "prendons", "prenons"],
+                    answer: "prenions"
+                },
+                {
+                    question: "Ils _____ à la fête hier soir. (aller - passé composé)",
+                    options: ["vont", "allaient", "sont allés", "iront"],
+                    answer: "sont allés"
+                },
+                {
+                    question: "Vous _____ partir en vacances. (vouloir - présent)",
+                    options: ["voulons", "voulez", "veut", "veulent"],
+                    answer: "voulez"
+                },
+                {
+                    question: "Elle _____ ses amis qu'elle part. (dire - présent)",
+                    options: ["dit", "dis", "disent", "dirait"],
+                    answer: "dit"
+                },
+                {
+                    question: "Demain, je _____ ce que é necessário. (faire - futur simple)",
+                    options: ["fais", "ferai", "ferons", "faisais"],
+                    answer: "ferai"
+                },
+                {
+                    question: "Il _____ des sorvetes quando estava calor. (boire - imparfait)",
+                    options: ["buvait", "a bu", "boit", "boira"],
+                    answer: "buvait"
+                },
+                {
+                    question: "Tu _____ ce rapport amanhã. (écrire - futur simple)",
+                    options: ["écris", "as écrit", "écrirás", "écrivais"],
+                    answer: "écrirás"
+                },
+                {
+                    question: "Nous _____ o jogo depois do jantar. (finir - futur simple)",
+                    options: ["finissons", "avons fini", "finirions", "finirons"],
+                    answer: "finirons"
+                }
+            ];
+
+            let currentQuestionIndex = 0;
+            const questionText = document.getElementById('question-text');
+            const optionsContainer = document.getElementById('options-container');
+            const checkButton = document.getElementById('check-button');
+            const feedbackElement = document.getElementById('feedback');
+            const quizContainer = document.getElementById('quiz-container');
+
+            function loadQuestion() {
+                const currentQuestion = quizData[currentQuestionIndex];
+                questionText.textContent = currentQuestion.question;
+                optionsContainer.innerHTML = '';
+                feedbackElement.textContent = '';
+                checkButton.style.display = 'block';
+
+                const shuffledOptions = currentQuestion.options.sort(() => Math.random() - 0.5);
+
+                shuffledOptions.forEach(option => {
+                    const optionDiv = document.createElement('div');
+                    optionDiv.classList.add('quiz-option', 'rounded-lg', 'overflow-hidden');
+                    optionDiv.innerHTML = `
+                        <input type="radio" id="option-${option}" name="quiz-option" value="${option}">
+                        <label for="option-${option}" class="block p-4 cursor-pointer rounded-lg text-white font-medium">
+                            ${option}
+                        </label>
+                    `;
+                    optionsContainer.appendChild(optionDiv);
+                });
+            }
+
+            function checkAnswer() {
+                const selectedOption = document.querySelector('input[name="quiz-option"]:checked');
+                if (!selectedOption) {
+                    feedbackElement.textContent = "Por favor, selecione uma opção.";
+                    feedbackElement.classList.remove('text-green-400', 'text-red-400');
+                    return;
+                }
+
+                const userAnswer = selectedOption.value;
+                const correctAnswer = quizData[currentQuestionIndex].answer;
+
+                if (userAnswer === correctAnswer) {
+                    feedbackElement.textContent = "Resposta correta! 🎉";
+                    feedbackElement.classList.remove('text-red-400');
+                    feedbackElement.classList.add('text-green-400');
+                    checkButton.style.display = 'none';
+
+                    setTimeout(() => {
+                        currentQuestionIndex++;
+                        if (currentQuestionIndex < quizData.length) {
+                            loadQuestion();
+                        } else {
+                            feedbackElement.textContent = "Parabéns! Você completou o quiz!";
+                            feedbackElement.classList.remove('text-red-400');
+                            feedbackElement.classList.add('text-green-400');
+                            checkButton.style.display = 'none';
+                            optionsContainer.innerHTML = '';
+                            questionText.textContent = "Você é um mestre da conjugação!";
+                        }
+                    }, 1500);
+                } else {
+                    feedbackElement.textContent = "Resposta incorreta. Tente novamente.";
+                    feedbackElement.classList.remove('text-green-400');
+                    feedbackElement.classList.add('text-red-400');
+                }
+            }
+
+            checkButton.addEventListener('click', checkAnswer);
+
+            loadQuestion();
+        });
+    </script>
+</body>
+</html>
